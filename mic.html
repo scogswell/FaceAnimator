@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Face Animator</title>
+	<link rel="stylesheet" href="mic.css">
+	<script type="text/javascript" src="mic.js"></script>
+</head>
+<body>
+<canvas class="visualizer" width="100" height="100"></canvas>
+<p>
+<label for="level1">Level 1:</label> <input type="number" size="4" id="level1" onchange="setLevels(this)" value="10"></br>
+<label for="level1">Level 2:</label> <input type="number" size="4" id="level2" onchange="setLevels(this)" value="20"></br>
+<label for="level1">Level 3:</label> <input type="number" size="4" id="level3" onchange="setLevels(this)" value="30"></br>
+<input type="checkbox" id="debugOn" onchange="setDebug(this)"> Show values
+</p>
+
+<h1 id="needAudio">Please allow the use of your microphone</h1>
+</body>
+</html>
